@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo RWD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header><h1>Catálogo de Hardware</h1></header>
+    <div class="container">
+        <!--sección de filtros y gráfica (en móvil baja hasta el fondo y en escritorio se pone a la izquierda)-->
+        <aside class="sidebar">
+            <h2>Filtros Avanzados</h2>
+            
+            <div style="margin-bottom: 1.5rem;">
+                <label style="font-weight: 600; color: var(--texto-oscuro); display: block; margin-bottom: 0.5rem;">Categoría</label>
+                <select style="width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 4px; color: var(--texto-claro);">
+                    <option>Todos los componentes</option>
+                    <option>Procesadores</option>
+                    <option>Tarjetas Gráficas</option>
+                    <option>Almacenamiento</option>
+                    <option>Tarjetas Madre</option>
+                </select>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+                <label style="font-weight: 600; color: var(--texto-oscuro); display: block; margin-bottom: 0.5rem;">Marca</label>
+                <label style="display: block; margin-bottom: 0.3rem; color: var(--texto-claro);"><input type="checkbox" style="margin-right: 0.5rem;"> AMD</label>
+                <label style="display: block; margin-bottom: 0.3rem; color: var(--texto-claro);"><input type="checkbox" style="margin-right: 0.5rem;"> Intel</label>
+                <label style="display: block; margin-bottom: 0.3rem; color: var(--texto-claro);"><input type="checkbox" style="margin-right: 0.5rem;"> ASUS</label>
+                <label style="display: block; margin-bottom: 0.3rem; color: var(--texto-claro);"><input type="checkbox" style="margin-right: 0.5rem;"> Corsair</label>
+            </div>
+
+            <button style="width: 100%; padding: 0.8rem; background-color: var(--color-principal); color: white; border: none; border-radius: 4px; font-weight: 700; cursor: pointer; margin-bottom: 1.5rem;">
+                Aplicar Filtros
+            </button>
+
+            <!--espacio donde se mostraría el gráfico-->
+            <div style="height: 250px; background-color: #e2e8f0; border: 1px dashed var(--color-acento-2); text-align: center; padding-top: 110px; color: var(--texto-claro); font-size: 0.9rem; border-radius: 4px;">
+                [Gráfico de Comparativa Renderizado]
+            </div>
+        </aside>
+                
+        <main class="catalogo">
+            <!--1era tarjeta-->
+            <article class="card">
+                <picture>
+                    <img src="img/DISCO_DURO.png" alt="Componente de hardware">
+                </picture>
+                <h3>Disco Duro</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+            <!-- 2da tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/FUENTE_PODER.jpg" alt="Componente de hardware">
+                </picture>
+                <h3>Fuente de Poder</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+            <!-- 3ra tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/MONITOR.png" alt="Componente de hardware">
+                </picture>
+                <h3>Monitor</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+            <!-- 4ta tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/TARJETA_G.png" alt="Componente de hardware">
+                </picture>
+                <h3>Tarjeta Vídeo</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+             <!-- 5ta tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/MOTHERBOARD.png" alt="Componente de hardware">
+                </picture>
+                <h3>Placa Base</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+             <!-- 6ta tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/RAM.png" alt="Componente de hardware">
+                </picture>
+                <h3>Memoria RAM</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+             <!-- 7ma tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/REFRIGERACION_L.png" alt="Componente de hardware">
+                </picture>
+                <h3>Refrigeración Líquida</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+             <!-- 8va tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/TECLADO.png" alt="Componente de hardware">
+                </picture>
+                <h3>Teclado</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+             <!-- 9na tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/ESCANER.png" alt="Componente de hardware">
+                </picture>
+                <h3>Escáner</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+             <!-- 10ma tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/PASTA_T.png" alt="Componente de hardware">
+                </picture>
+                    <h3>Pasta Térmica</h3>
+                    <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+             <!-- 11va tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/MOUSE.png" alt="Componente de hardware">
+                </picture>
+                <h3>Mouse</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+             <!-- 12va tarjeta -->
+            <article class="card">
+                <picture>
+                    <img src="img/IMPRESORA.png" alt="Componente de hardware">
+                </picture>
+                <h3>Impresora</h3>
+                <p>Especificaciones técnicas detalladas...</p>
+                <button>Comprar</button>
+            </article>
+        </main>
+    </div>
+</body>
+</html>
